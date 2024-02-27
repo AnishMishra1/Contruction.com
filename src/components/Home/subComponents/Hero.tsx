@@ -8,25 +8,24 @@ import { FaArrowCircleRight } from "react-icons/fa";
 
 const features = [
   {
-    heading: "WE PROVIDE BEST TRANSPORT SERVICE",
+    heading: "WE PROVIDE MAINTANCE SERVICE",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum magnam, voluptates distinctio, officia architecto tenetur debitis hic aspernatur libero commodi atque fugit adipisci, blanditiis quidem dolorum odit voluptas? Voluptate, eveniet?",
+      "Maintenance and renovation are crucial aspects of construction projects, ensuring that buildings and infrastructure remain functional, safe, and aesthetically pleasing over time",
   },
   {
-    heading: "WE PROVIDE BEST TRANSPORT SERVICE",
+    heading: "WE PROVIDE QUALITY SERVICE",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum magnam, voluptates distinctio, officia architecto tenetur debitis hic aspernatur libero commodi atque fugit adipisci, blanditiis quidem dolorum odit voluptas? Voluptate, eveniet?",
+      "Implementing a robust quality and safety system in construction is vital for ensuring that projects are completed to high standards while prioritizing the well-being of workers and stakeholders",
   },
   {
-    heading: "WE PROVIDE BEST TRANSPORT SERVICE",
+    heading: "WE DELIVER PROJECT ",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum magnam, voluptates distinctio, officia architecto tenetur debitis hic aspernatur libero commodi atque fugit adipisci, blanditiis quidem dolorum odit voluptas? Voluptate, eveniet?",
+      "Project control and cost control are essential aspects of managing construction projects effectively, ensuring they stay on schedule, within budget, and meet quality standards.",
   },
 ];
 
 const Hero = () => {
   var settings: Settings = {
-    
     infinite: true,
     speed: 100,
     slidesToShow: 1,
@@ -65,16 +64,16 @@ const Hero = () => {
 
   return (
     <div
-      className="px-[1rem] sm:px-[3rem] py-[5rem] min-h-[35rem] bg-no-repeat bg-cover bg-center flex items-center"
+      className=" sm:px-[3rem] py-[5rem] min-h-[35rem] bg-no-repeat bg-cover bg-center flex items-center"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(0,0,0,0.5) 20%,rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1473042904451-00171c69419d?q=80&w=1799&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
+          "linear-gradient(rgba(0,0,0,0.5) 20%,rgba(0,0,0,0.5)),url(https://img.freepik.com/free-psd/builder-carries-steel-beam-his-shoulder-generative-ai_587448-2200.jpg?w=996&t=st=1709035751~exp=1709036351~hmac=99506d0e55b46caa34a716e74cbb3027b7ca01f67567bd569a18d5d96c5da157)",
       }}
     >
       <Slider {...settings}>
         {features.map((data, index) => (
-          <div className="px-[1rem]">
-            <div className="bg-transparent rounded-3xl p-[2rem] flex gap-[2rem] text-white">
+          <div className="sm:px-[1rem]">
+            <div className="bg-transparent rounded-3xl sm:p-[2rem] flex gap-[2rem] text-white">
               <div className="flex flex-col gap-[1rem]">
                 <div className="max-w-[23rem] md:max-w-[30rem] flex flex-col gap-[1rem]">
                   <h1 className="text-[2rem] leading-[2rem] font-bold text-center sm:text-left">{data.heading}</h1>
