@@ -19,6 +19,7 @@ import ScrollToTop from "./globalSubComponents/ScrollToTop";
 import { RootState } from "./store/store";
 import PasswordReset from "./components/ForgetPassword/PasswordReset";
 import TopBar from "./globalSubComponents/TopBar";
+import Landing from "./components/Landing/Landing";
 
 function App() {
   const curTab = useSelector((state: RootState) => state.curTab.value);
@@ -39,6 +40,7 @@ function App() {
           <Route path="/Profile" element={<Profile />} />
           <Route path="/Blog/*" element={<Blog />} />
           <Route path="/Privacy" element={<Privacy />} />
+          <Route path="/Landing" element={<Landing />} />
           <Route path="/ResetPassword" element={<PasswordReset />} />
           <Route path="*" element={<Navigate to="/Home" />} />
         </Routes>
