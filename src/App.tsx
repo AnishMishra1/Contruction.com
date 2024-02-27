@@ -20,7 +20,7 @@ import { RootState } from "./store/store";
 import PasswordReset from "./components/ForgetPassword/PasswordReset";
 import TopBar from "./globalSubComponents/TopBar";
 import Landing from "./components/Landing/Landing";
-import Landing from "./components/Landing/Landing";
+
 
 function App() {
   const curTab = useSelector((state: RootState) => state.curTab.value);
