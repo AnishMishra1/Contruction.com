@@ -30,7 +30,7 @@ function App() {
         {curTab === "Auth" || curTab === "Password Reset" ? null : <TopBar />}
         {curTab === "Auth" || curTab === "Password Reset" ? null : <NavBar />}
         <Routes>
-          <Route path="/" element={<Navigate to="/Home" />} />
+          {/* <Route path="/" element={<Navigate to="/Home" />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
@@ -39,10 +39,10 @@ function App() {
           <Route path="/Services/*" element={<Services />} />
           <Route path="/Profile" element={<Profile />} />
           <Route path="/Blog/*" element={<Blog />} />
-          <Route path="/Privacy" element={<Privacy />} />
+          <Route path="/Privacy" element={<Privacy />} /> */}
           <Route path="/Landing" element={<Landing />} />
-          <Route path="/ResetPassword" element={<PasswordReset />} />
-          <Route path="*" element={<Navigate to="/Home" />} />
+          {/* <Route path="/ResetPassword" element={<PasswordReset />} />
+          <Route path="*" element={<Navigate to="/Home" />} /> */}
         </Routes>
       </div>
       {/* {curTab === "Auth" || curTab === "Password Reset" ? null : (
