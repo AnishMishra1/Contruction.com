@@ -24,7 +24,7 @@ const Robinhood = () => {
 
   return (
     <div>
-      <Popover />
+      {/* <Popover /> */}
       <RobinNav />
       <HeroSection />
       <Testimonials />
