@@ -21,6 +21,7 @@ import PasswordReset from "./components/ForgetPassword/PasswordReset";
 import TopBar from "./globalSubComponents/TopBar";
 import Landing from "./components/Landing/Landing";
 import Robinhood from "./components/Robinhood/Robinhood";
+import InvestLanding from "./components/vanguard/InvestLanding";
 
 function App() {
   const curTab = useSelector((state: RootState) => state.curTab.value);
@@ -32,7 +33,7 @@ function App() {
         {curTab === "Auth" || curTab === "Password Reset" || curTab === "Robinhood" ? null : <NavBar />}
         <Routes>
           <Route path="/" element={<Navigate to="/Home" />} />
-          <Route path="/Home" element={<Landing />} />
+          <Route path="/Home" element={<InvestLanding />} />
           {/* <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Pricing" element={<Pricing />} />
