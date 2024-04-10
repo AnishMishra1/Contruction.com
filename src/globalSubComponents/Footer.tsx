@@ -60,9 +60,32 @@ const footerLinks = [
 
 const Footer = () => {
   return (
-    <div className="bg-[#04233b] lg:h-[20rem] h-auto">
-      <div className="flex md:flex-row flex-col items-start justify-evenly ">
-        {/* address */}
+    <div className="bg-gray-600 lg:h-[20rem] h-auto py-10 px-[3rem] ">
+      {/* White text */}
+
+ 
+  {/* Text */}
+  <p className="text-white">
+    {/* © 1995-2024 The Vanguard Group, Inc. All rights reserved. Vanguard Marketing Corporation, Distributor of the Vanguard Funds. Your use of this site signifies that you accept our terms & conditions of use. */}
+    <span>
+      © 1995-2024 The Vanguard Group, Inc. All rights reserved. Vanguard Marketing Corporation, Distributor of the Vanguard Funds.
+    </span>
+    <br />
+    Your use of this site signifies that you accept our
+    <a href="#" className="ml-2 underline">terms & conditions of use</a>.
+  </p>
+      <ul className="flex flex-row list-none p-0 m-0 cursor-pointer mt-11 text-small space-x-2">
+        <li className="p-2 my-6 underline text-white">Privacy Center</li>
+        <li className="p-2 my-6 underline text-white">Do Not Sell My Personal Information</li>
+        <li className="p-2 my-6 underline text-white">Security Center</li>
+        <li className="p-2 my-6 underline text-white">Accessibility</li>
+        <li className="p-2 my-6 underline text-white">Mutual fund prospectuses</li>
+        <li className="p-2 my-6 underline text-white">Exchange-traded fund (ETF) prospectuses</li>
+        <li className="p-2 my-6 underline text-white">Special notice to non-U.S. investors</li>
+        <li className="p-2 my-6 underline text-white">Manage cookies</li>
+      </ul>
+      {/* <div className="flex md:flex-row flex-col items-start justify-evenly ">
+        address
         <div className="flex flex-col items-start justify-center">
           <div className="p-[2rem]">
             <h1 className="text-[1.5rem]  text-white">Address</h1>
@@ -105,7 +128,7 @@ const Footer = () => {
           </div>
         </div>
         {/* info */}
-        <div className="flex flex-col items-start justify-center">
+      {/* <div className="flex flex-col items-start justify-center">
           <div className="p-[2rem]">
             <h1 className="text-[1.5rem]  text-white">Info</h1>
           </div>
@@ -121,7 +144,7 @@ const Footer = () => {
           </div>
         </div>
         {/* links */}
-        <div className="flex flex-col items-start justify-center">
+      {/* <div className="flex flex-col items-start justify-center">
           <div className="p-[2rem]">
             <h1 className="text-[1.5rem]  text-white">Links</h1>
           </div>
@@ -133,9 +156,9 @@ const Footer = () => {
               <li>Contact</li>
             </ul>
           </div>
-        </div>
-        {/* suscrive */}
-        <div className="flex flex-col items-start justify-center">
+        </div> */}
+      {/* suscrive */}
+      {/* <div className="flex flex-col items-start justify-center">
           <div className="p-[2rem]">
             <h1 className="text-[1.5rem]  text-white">Subscribe</h1>
           </div>
@@ -145,8 +168,8 @@ const Footer = () => {
               <button className="py-[0.6rem] bg-[#0a97b0] text-white px-[6rem]">Subscribe</button>
             </div>
           </div>
-        </div>
-      </div>
+        </div>  */}
+      {/* </div> */}
     </div>
   );
 };
