@@ -107,7 +107,7 @@ const NavBar = () => {
         )}
       </NavbarContent>
 
-      <NavbarMenu className="mt-[4.5rem] bg-white z-[200]">
+      {/* <NavbarMenu className="mt-[4.5rem] bg-white z-[200]">
         {menuItems.map((item, index) => {
           return (
             <NavbarMenuItem key={`${item}-${index}`}>
@@ -124,7 +124,7 @@ const NavBar = () => {
             </NavbarMenuItem>
           );
         })}
-      </NavbarMenu>
+      </NavbarMenu> */}
     </Navbar>
   );
 };
