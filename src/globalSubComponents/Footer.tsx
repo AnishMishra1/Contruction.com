@@ -74,7 +74,7 @@ const Footer = () => {
     Your use of this site signifies that you accept our
     <a href="#" className="ml-2 underline">terms & conditions of use</a>.
   </p>
-      <ul className="flex flex-row list-none p-0 m-0 cursor-pointer mt-11 text-small space-x-2">
+      <ul className="flex lg:flex-row list-none p-0 m-0 cursor-pointer mt-11 text-small space-x-2 flex-col">
         <li className="p-2 my-6 underline text-white">Privacy Center</li>
         <li className="p-2 my-6 underline text-white">Do Not Sell My Personal Information</li>
         <li className="p-2 my-6 underline text-white">Security Center</li>
